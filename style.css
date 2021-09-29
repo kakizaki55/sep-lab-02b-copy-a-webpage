@@ -25,6 +25,9 @@ nav span{
 #home{
     background-color: purple;
 }
+#avclub-logo{
+    margin-right: 20px;
+}
 
 main{
     width: 100%;
@@ -35,7 +38,6 @@ main{
           "big story1 story2"
           "big story3 stroy4"
           ;
-
 }
 #big{
     grid-area: big;

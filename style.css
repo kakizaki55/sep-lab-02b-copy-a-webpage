@@ -1,0 +1,45 @@
+#top-bar{
+    border:purple solid 2px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+#top-bar div{
+    margin-right: 10px;
+}
+header{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+nav{
+    border: 2px solid purple;
+}
+nav span{
+    margin-right: 10px;
+}
+#home{
+    background-color: purple;
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 640px 1fr 1fr;
+    grid-template-rows: 335px 335px;
+    grid-template-areas:
+          "big story1 story2"
+          "big story3 stroy4"
+          ;
+
+}
+#big{
+    grid-area: big;
+}
+main div{
+    border: black 2px solid;
+}
